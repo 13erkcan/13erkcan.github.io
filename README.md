@@ -1,96 +1,36 @@
-# A React Portfolio Template for GitHub
+# Berk Can's Portfolio
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github)](https://github.com/mshuber1981/github-react-portfolio-template/stargazers/) [![GitHub Repo Forks](https://img.shields.io/github/forks/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github&label=Forks)](https://github.com/mshuber1981/github-react-portfolio-template/network/members) [![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com&style=for-the-badge&logo=X&label=Say%20thank%20you!&labelColor=black&color=black)](https://twitter.com/intent/tweet?text=Thanks%20for%20the%20awesome%20Portfolio%20Template!%20https://github.com/mshuber1981/github-react-portfolio-template&via=MikeyHuber1981)
+Welcome to my personal portfolio website. Here you'll find information about my projects, skills, and contact information.
 
-A performant, accessible, progressive React portfolio template that uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest).
+## About Me
 
-Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
+I am a passionate web and mobile application developer with experience in various technologies. I enjoy learning about new technologies and applying them to solve real-world problems.
 
-## [Live Demo](https://mshuber1981.github.io/github-react-portfolio-template/#/)
+## Skills
 
-[Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+- **Programming Languages:** JavaScript, TypeScript, Java, C#
+- **Frameworks and Libraries:** React, Redux, Spring Boot, Node.js
+- **Databases:** MySQL, MongoDB
+- **Tools:** Git, GitHub, Docker, Postman
 
-![Page Speed](/README_images/speed.png)
+## Projects
 
-## Light And Dark Themes
+### [Course Registration Mobile App](https://github.com/13erkcan/Course-Registration-Mobile-App)
+Streamlines course enrollment with a user-centric UI and robust backend. Features user registration, login, and MySQL data handling.
 
-![Hero Light](/README_images/hero.png)
+### [InnoMinds Admin Panel](https://github.com/13erkcan/InnoMindsAdminPanel)
+An admin panel for managing various tasks within the InnoMinds platform.
 
-![Hero Dark](/README_images/heroDark.png)
+### [Twenty-Five Plus Five Clock](https://github.com/13erkcan/twentyfive-plus-five-clock-main)
+A productivity timer built with TypeScript and React.
 
-### Getting Started
+### [Task Manager MEAN Stack](https://github.com/13erkcan/task-manager-mean-stack)
+A task manager application created using the MEAN stack (Angular, NodeJS with Express, and MongoDB).
 
-1. [Create a repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. [Clone your new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-3. Make sure [Node](https://nodejs.org/en/) is installed
-4. Open your project and install the dependencies
+## Contact
 
-   ```bash
-   npm install
-   ```
+You can reach me via [LinkedIn](https://www.linkedin.com/in/berkcan99) or [email](mailto:youremail@example.com).
 
-5. Navigate to the src directory and open src/config.js
-6. Add your GitHub username ([config.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/config.js#L18) line 18)
+## License
 
-   ```javascript
-   /* START HERE
-   ************************************************************** 
-     Add your GitHub username (string - "YourUsername") below.
-   */
-   export const githubUsername = "Your GitHub username here";
-   ```
-
-7. Start the development server to view the results
-
-   ```bash
-   npm start
-   ```
-
-### Updating the Contact section
-
-![Projects](/README_images/contact.png)
-
-1. The contact form uses [Formspree](https://formspree.io/), create an account and add your endpoint URL ([config.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/config.js#L114) line 114)
-
-   ```javascript
-   /* Contact Info
-   ************************************************************** 
-     Add your formspree endpoint below.
-     https://formspree.io/
-   */
-   export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
-   ```
-
-### Deploy
-
-A helpful guide for Create React App deployments with GitHub Pages can be found [here](https://create-react-app.dev/docs/deployment#github-pages).
-
-1. Update the homepage value ([package.json](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/package.json#L3) line 3)
-
-   ```json
-   "homepage": "https://YourUserName.github.io/your-repo/",
-   ```
-
-2. Run the deploy command
-
-   ```bash
-   npm run deploy
-   ```
-
-### Customization Options
-
-Checkout the [Wiki](https://github.com/mshuber1981/github-react-portfolio-template/wiki) for additional customization options:
-
-- [Updating the Navbar Logo](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Navbar-Logo)
-- [Updating the Main section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Main-section)
-- [Updating the About Me section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-About-Me-section)
-- [Updating the Skills section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Skills-section)
-- [Updating the Projects section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Projects-section)
-- [Updating the theme color](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-theme-color)
-- [Updating the Footer icons theme (light or dark)](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Footer-icons-theme)
-
-[Back to top :top:](#a-react-portfolio-template-for-github)
-
-### License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the MIT License.
