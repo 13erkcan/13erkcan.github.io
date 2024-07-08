@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌟 Personal Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and contact information.
@@ -101,7 +100,6 @@ Each project includes a brief description, technologies used, and links to the l
 5. **Contact Form**: The contact form is integrated using Formspree for handling form submissions.
 
 Feel free to explore my projects and reach out to me through the contact section.
->>>>>>> 7df6ef8 (Save current changes before pulling latest changes)
 
 ---
 
