@@ -54,7 +54,6 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - **Styling**: Styled Components and Bootstrap
 - **Hosting**: GitHub Pages
 - **Contact Form**: Formspree
-=======
 # Personal Portfolio Website
 
 Welcome to my personal portfolio website. This website showcases my skills, projects, and contact information.
