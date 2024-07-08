@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.372dc58a.css",
+    "main.js": "/static/js/main.c1cad24e.js",
+    "static/media/day_sydney.jpg": "/static/media/day_sydney.a1f824a0a286cdd2ea14.jpg",
+    "static/media/night_sydney.jpg": "/static/media/night_sydney.540a7ef4b8f77e1ccf9e.jpg",
+    "static/media/avatar.jpg": "/static/media/avatar.227ce598349ac937cee5.jpg",
+    "service-worker.js": "/service-worker.js",
+    "static/media/GH.svg": "/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/defaultNavLogo.svg": "/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.372dc58a.css.map": "/static/css/main.372dc58a.css.map",
+    "main.c1cad24e.js.map": "/static/js/main.c1cad24e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.372dc58a.css",
+    "static/js/main.c1cad24e.js"
+  ]
+}
