@@ -1,3 +1,4 @@
+// GlobalStyles.js
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
@@ -73,7 +74,7 @@ a:hover {
   .link-icons:hover {
     color: var(--bs-primary);
   }
-  }
+}
 `;
 
 export default GlobalStyles;

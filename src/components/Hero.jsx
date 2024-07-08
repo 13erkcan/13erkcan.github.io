@@ -41,8 +41,9 @@ const StyledHero = styled.header`
     height: 100%;
     background: ${({ theme }) =>
       theme.name === "light"
-        ? "linear-gradient(135deg, var(--bs-primary), var(--bs-light))"
-        : "linear-gradient(135deg, var(--bs-primary), var(--bs-dark))"};
+        ? `url(${Light}) top center fixed no-repeat`
+        : `url(${Dark}) top center fixed no-repeat`};
+    background-size: cover;
     z-index: -2;
   }
 
@@ -73,20 +74,12 @@ const StyledHero = styled.header`
 
   @media screen and (min-width: 1180px) {
     &::before {
-      background: ${({ theme }) =>
-        theme.name === "light"
-          ? `url(${Light}) top center fixed no-repeat`
-          : `url(${Dark}) top center fixed no-repeat`};
       background-size: 100vw auto;
     }
   }
 
   @media screen and (min-width: 1367px) {
     &::before {
-      background: ${({ theme }) =>
-        theme.name === "light"
-          ? `url(${Light}) center center fixed no-repeat`
-          : `url(${Dark}) center center fixed no-repeat`};
       background-size: cover;
     }
   }

@@ -5,8 +5,8 @@ import { Icon } from "@iconify/react";
 // import newLogo from "./images/yourFileName"
 
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HeroLight from "./images/day_sydney.jpg";
+import HeroDark from "./images/night_sydney.jpg";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -15,13 +15,16 @@ import Logo from "./images/logo.svg";
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "13erkcan";
+
+// Avatar URL
+export const avatar_url = "/images/avatar.jpg";
 
 // Navbar Logo image
 export const navLogo = null;
 
 /* Main
- ************************************************************** 
+ **************************************************************
   Add a custom blog icon or update the hero images for the Main section.
 */
 export const Blog = null;
@@ -34,11 +37,16 @@ export { HeroDark as Dark };
  **************************************************************
   Add a second paragraph for the about me section.
 */
-export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+export const moreInfo = `
+  Recent IT graduate from Victoria University Sydney with a robust foundation in front-end development and software engineering. I possess strong skills in front-end technologies, Java programming, and have earned certifications in Front End Development Libraries and Data Structures & Algorithms in Java.
+
+  My professional journey began with volunteering at the Hacettepe University Robotics Society, where I developed programming skills and led various technology projects. Subsequently, I served as the Head of Advisory Board at the Hacettepe Free Software Society, providing strategic guidance and overseeing software courses and events. Most recently, my role at IKEA honed my customer service and strategic planning abilities.
+
+  I am now actively seeking opportunities in Front-end Development and Software Engineering to leverage my technical skills and project experience in creating innovative web and mobile applications.
+`;
 
 /* Skills
- ************************************************************** 
+ **************************************************************
   Add or remove skills in the SAME format below, choose icons here - https://icon-sets.iconify.design/
 */
 export const skillData = [
@@ -87,18 +95,33 @@ export const skillData = [
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <Icon icon="teenyicons:python-outline" className="display-4" />,
+    name: "Python",
+  },
+  {
+    id: 11,
+    skill: <Icon icon="teenyicons:mongodb-outline" className="display-4" />,
+    name: "MongoDB",
+  },
+  {
+    id: 12, // New Java skill with increased size
+    skill: <Icon icon="ri:java-fill" width="1.2em" height="1.2em" className="display-4" />,
+    name: "Java",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = null;
 
 /* Projects
- ************************************************************** 
+ **************************************************************
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
 export const filteredProjects = ["example-1", "example-2", "example-3"];
 
-// Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
+// Replace the default GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
     name: "example-1",
@@ -107,11 +130,11 @@ export const projectCardImages = [
 ];
 
 /* Contact Info
- ************************************************************** 
+ **************************************************************
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xkgwnajq";
 
 // Footer icons theme (light or dark)
 export const footerTheme = "dark";
