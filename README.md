@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌟 Personal Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and contact information.
@@ -54,6 +55,53 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - **Styling**: Styled Components and Bootstrap
 - **Hosting**: GitHub Pages
 - **Contact Form**: Formspree
+=======
+# Personal Portfolio Website
+
+Welcome to my personal portfolio website. This website showcases my skills, projects, and contact information.
+
+## Skills
+
+- HTML5
+- CSS3
+- JavaScript
+- React
+- Bootstrap
+- Styled Components
+- Redux
+- Git
+- GitHub
+- Python
+- MongoDB
+- Java
+
+## Projects
+
+Each project includes a brief description, technologies used, and links to the live demo and GitHub repository.
+
+## Interactivity
+
+- The website is fully responsive and interactive.
+- Includes smooth scrolling and animated transitions.
+- Users can contact me through the integrated contact form.
+
+## Technologies Used
+
+- **Frontend**: React, Bootstrap, Styled Components
+- **Backend**: Node.js (for some projects), Spring Boot
+- **Database**: MongoDB, MySQL
+- **Version Control**: Git and GitHub
+
+## How I Built This Website
+
+1. **Design**: The design was initially created using Figma.
+2. **Development**: The website was developed using React for the frontend.
+3. **Styling**: Styled Components and Bootstrap were used for styling.
+4. **Hosting**: The website is hosted on GitHub Pages.
+5. **Contact Form**: The contact form is integrated using Formspree for handling form submissions.
+
+Feel free to explore my projects and reach out to me through the contact section.
+>>>>>>> 7df6ef8 (Save current changes before pulling latest changes)
 
 ---
 
